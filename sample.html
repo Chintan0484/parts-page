@@ -35,7 +35,7 @@
             height: auto; /* Maintain aspect ratio */
         }
 
-    nav{
+    nav {
         position: absolute; /* Position the navigation bar absolutely */
         top: 10px; /* Adjust top position as needed */
         right: 10px; /* Adjust left position as needed */
@@ -44,7 +44,7 @@
         padding: 10px; /* Padding around the navigation links */
         }
 
-    .parts-container{
+        .parts-container{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -107,27 +107,23 @@
 }
 
 .btn{
-    padding: 10px 10px;
+    padding: 10px 22px;
     background: var(--main-color);
     color: var(--bg-color);
-    box-sizing:unset;
-    margin-left: 87px;
-    border-radius: 0.5rem;
-    background-color: crimson;
-    text-align: center;
+    font-weight: 400;
 }
 
-.parts_name{
-    margin-left:100px;
+.btn:hover{
+    background: #fd052f;
+
 }
 
 
-
-</style>
+    </style>
 </head>
 <body>
     <nav>
-        <img src="logo.png" alt="Logo" class="logo" onclick="location.href='Home.html'">
+        <img src="logo.png" alt="Logo" class="logo">
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="services/services.html">Services</a></li>
@@ -144,50 +140,62 @@
             <!--Box 1-->
 
             <div class="box">
-                <img src="img/pexels-pixabay-326259.jpg" alt="">
-                <h3 class="parts_name">Interior parts</h3>
-                <a href="#" class="btn">See the Parts</a>
-                
+                <img src="img/part1.png" alt="">
+                <h3>Interior parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
             <div class="box">
-                <img class="img" src="img/part2.png" alt="">
-                <h3 class="parts_name">Exterior parts</h3>
-                <a href="#" class="btn">See the Parts</a>
-                
+                <img src="img/part2.png" alt="">
+                <h3>Auto Spare Parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
 
             <div class="box">
-                <img src="img/part6.png" alt="">
-                <h3 class="parts_name">Wheels</h3>
-                <a href="#" class="btn">See the Parts</a>
-                
+                <img src="img/part3.png" alt="">
+                <h3>Auto Spare Parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
 
             <!--Box 4-->
 
             <div class="box">
                 <img src="img/part4.png" alt="">
-                <h3 class="parts_name">Interior parts</h3>
-                <a href="#" class="btn">See the Parts</a>
-                
+                <h3>Auto Spare Parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
 
             <!--Box 5-->
 
         <div class="box">
                 <img src="img/part5.png" alt="">
-                <h3 class="parts_name">Interior parts</h3>
-                <a href="#" class="btn">See the Parts</a>
-                
+                <h3>Auto Spare Parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
 
             
 
             <div class="box">
                 <img src="img/part6.png" alt="">
-                <h3 class="parts_name">Interior parts</h3>
-                <a href="#" class="btn">See the Parts</a>
-            
+                <h3>Auto Spare Parts</h3>
+                <span>$130.99</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="details">View Details</a>
             </div>
         </div>
     </section>
